@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-08-07 00:24+0000\n"
+"POT-Creation-Date: 2022-09-04 00:22+0000\n"
 "PO-Revision-Date: 2013-04-02 08:44+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>, 2021-2022\n"
 "Language-Team: Albanian (http://www.transifex.com/sphinx-doc/sphinx-1/language/sq/)\n"
@@ -19,123 +19,123 @@ msgstr ""
 "Language: sq\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: sphinx/application.py:147
+#: sphinx/application.py:148
 #, python-format
 msgid "Cannot find source directory (%s)"
 msgstr "S’gjendet dot drejtori burim (%s)"
 
-#: sphinx/application.py:151
+#: sphinx/application.py:152
 #, python-format
 msgid "Output directory (%s) is not a directory"
 msgstr "Drejtoria e përfundimeve (%s) s’është drejtori"
 
-#: sphinx/application.py:155
+#: sphinx/application.py:156
 msgid "Source directory and destination directory cannot be identical"
 msgstr "Drejtoria burim dhe drejtoria vendmbërritje s’mund të jenë identike"
 
-#: sphinx/application.py:187
+#: sphinx/application.py:188
 #, python-format
 msgid "Running Sphinx v%s"
 msgstr "Po xhirohet Sphinx v%s"
 
-#: sphinx/application.py:213
+#: sphinx/application.py:214
 #, python-format
 msgid ""
 "This project needs at least Sphinx v%s and therefore cannot be built with "
 "this version."
 msgstr "Ky projekt lyp të paktën Sphinx v%s, ndaj s’mund të montohet me këtë version."
 
-#: sphinx/application.py:228
+#: sphinx/application.py:229
 msgid "making output directory"
 msgstr "po krijohet drejtori përfundimesh"
 
-#: sphinx/application.py:233 sphinx/registry.py:439
+#: sphinx/application.py:234 sphinx/registry.py:456
 #, python-format
 msgid "while setting up extension %s:"
 msgstr "teksa ujdiset zgjerimi %s:"
 
-#: sphinx/application.py:239
+#: sphinx/application.py:240
 msgid ""
 "'setup' as currently defined in conf.py isn't a Python callable. Please "
 "modify its definition to make it a callable function. This is needed for "
 "conf.py to behave as a Sphinx extension."
 msgstr "'setup' siç është përcaktuar aktualisht te conf.py s’është funksion Python që mund të thirret. Ju lutemi, ndryshojeni përcaktimin e tij që ta bëni një funksion që mund të thirret. Kjo është e nevojshme që conf.py të sillet si një zgjerim Sphinx."
 
-#: sphinx/application.py:270
+#: sphinx/application.py:271
 #, python-format
 msgid "loading translations [%s]... "
 msgstr "po ngarkohen përkthime [%s]… "
 
-#: sphinx/application.py:287 sphinx/util/__init__.py:519
+#: sphinx/application.py:288 sphinx/util/__init__.py:519
 msgid "done"
 msgstr "u bë"
 
-#: sphinx/application.py:289
+#: sphinx/application.py:290
 msgid "not available for built-in messages"
 msgstr "s’është i passhëm për mesazhe të brendshëm"
 
-#: sphinx/application.py:305
+#: sphinx/application.py:306
 msgid "loading pickled environment"
 msgstr ""
 
-#: sphinx/application.py:311
+#: sphinx/application.py:312
 #, python-format
 msgid "failed: %s"
 msgstr "dështoi: %s"
 
-#: sphinx/application.py:325
+#: sphinx/application.py:326
 msgid "No builder selected, using default: html"
 msgstr "S’u përzgjodh montues, po përdoret parazgjedhja: html"
 
-#: sphinx/application.py:363
+#: sphinx/application.py:364
 msgid "succeeded"
 msgstr "doli me sukses"
 
-#: sphinx/application.py:364
+#: sphinx/application.py:365
 msgid "finished with problems"
 msgstr "u përfundua me probleme"
 
-#: sphinx/application.py:368
+#: sphinx/application.py:369
 #, python-format
 msgid "build %s, %s warning (with warnings treated as errors)."
 msgstr "montimi %s, % sinjalizim (me sinjalizime të trajtuara si gabime)."
 
-#: sphinx/application.py:370
+#: sphinx/application.py:371
 #, python-format
 msgid "build %s, %s warnings (with warnings treated as errors)."
 msgstr "montimi %s, %s sinjalizime (me sinjalizime të trajtuara si gabime)."
 
-#: sphinx/application.py:373
+#: sphinx/application.py:374
 #, python-format
 msgid "build %s, %s warning."
 msgstr "build %s, %s warning."
 
-#: sphinx/application.py:375
+#: sphinx/application.py:376
 #, python-format
 msgid "build %s, %s warnings."
 msgstr "montimi %s, %s sinjalizime."
 
-#: sphinx/application.py:379
+#: sphinx/application.py:380
 #, python-format
 msgid "build %s."
 msgstr "montimi %s."
 
-#: sphinx/application.py:601
+#: sphinx/application.py:602
 #, python-format
 msgid "node class %r is already registered, its visitors will be overridden"
 msgstr "klasa %r e nyjeve është e regjistruar tashmë, vizitorët e saj do të anashkalohen"
 
-#: sphinx/application.py:679
+#: sphinx/application.py:680
 #, python-format
 msgid "directive %r is already registered, it will be overridden"
 msgstr "direktiva %r është e regjistruar tashmë, do të anashkalohet"
 
-#: sphinx/application.py:700 sphinx/application.py:721
+#: sphinx/application.py:701 sphinx/application.py:722
 #, python-format
 msgid "role %r is already registered, it will be overridden"
 msgstr "roli %r është e regjistruar tashmë, do të anashkalohet"
 
-#: sphinx/application.py:1271
+#: sphinx/application.py:1274
 #, python-format
 msgid ""
 "the %s extension does not declare if it is safe for parallel reading, "
@@ -143,12 +143,12 @@ msgid ""
 "explicit"
 msgstr "zgjerimi %s nuk deklaron nëse është i parrezik për lexim paralel, po merret se s’është - ju lutemi, kërkojini autorin të zgjerimit ta kontrollojë dhe ta bëjë këtë shprehimisht"
 
-#: sphinx/application.py:1275
+#: sphinx/application.py:1278
 #, python-format
 msgid "the %s extension is not safe for parallel reading"
 msgstr "zgjerimi %s s’është i sigurt për lexim paralel"
 
-#: sphinx/application.py:1278
+#: sphinx/application.py:1281
 #, python-format
 msgid ""
 "the %s extension does not declare if it is safe for parallel writing, "
@@ -156,12 +156,12 @@ msgid ""
 "explicit"
 msgstr "zgjerimi %s nuk deklaron nëse është i parrezik për shkrim paralel, po merret se s’është - ju lutemi, kërkojini autorin të zgjerimit ta kontrollojë dhe ta bëjë këtë shprehimisht"
 
-#: sphinx/application.py:1282
+#: sphinx/application.py:1285
 #, python-format
 msgid "the %s extension is not safe for parallel writing"
 msgstr "zgjerimi %s s’është i sigurt për shkrim paralel"
 
-#: sphinx/application.py:1290 sphinx/application.py:1294
+#: sphinx/application.py:1293 sphinx/application.py:1297
 #, python-format
 msgid "doing serial %s"
 msgstr ""
@@ -378,82 +378,82 @@ msgstr "Roli %r është i regjistruar tashmë te përkatësia %s"
 msgid "The %r index is already registered to domain %s"
 msgstr "Treguesi %r është i regjistruar tashmë te përkatësia %s"
 
-#: sphinx/registry.py:251
+#: sphinx/registry.py:258
 #, python-format
 msgid "The %r object_type is already registered"
 msgstr "object_type %r është i regjistruar tashmë"
 
-#: sphinx/registry.py:271
+#: sphinx/registry.py:284
 #, python-format
 msgid "The %r crossref_type is already registered"
 msgstr "crossref_type %r është i regjistruar tashmë"
 
-#: sphinx/registry.py:278
+#: sphinx/registry.py:291
 #, python-format
 msgid "source_suffix %r is already registered"
 msgstr "source_suffix %r është i regjistruar tashmë"
 
-#: sphinx/registry.py:288
+#: sphinx/registry.py:301
 #, python-format
 msgid "source_parser for %r is already registered"
 msgstr "source_parser për %r është i regjistruar tashmë"
 
-#: sphinx/registry.py:297
+#: sphinx/registry.py:310
 #, python-format
 msgid "Source parser for %s not registered"
 msgstr "Përtypës burimesh për %s jo i regjistruar"
 
-#: sphinx/registry.py:326
+#: sphinx/registry.py:339
 #, python-format
 msgid "Translator for %r already exists"
 msgstr "Përkthyesi për %r ekziston tashmë"
 
-#: sphinx/registry.py:339
+#: sphinx/registry.py:352
 #, python-format
 msgid "kwargs for add_node() must be a (visit, depart) function tuple: %r=%r"
 msgstr "kwargs për add_node() duhet të jetë një çift funksioni (visit, depart): %r=%r"
 
-#: sphinx/registry.py:411
+#: sphinx/registry.py:428
 #, python-format
 msgid "enumerable_node %r already registered"
 msgstr "enumerable_node %r tashmë i regjistruar"
 
-#: sphinx/registry.py:420
+#: sphinx/registry.py:437
 #, python-format
 msgid "math renderer %s is already registered"
 msgstr "vizatuesi i formulave matematikore %s është i regjistruar tashmë"
 
-#: sphinx/registry.py:433
+#: sphinx/registry.py:450
 #, python-format
 msgid ""
 "the extension %r was already merged with Sphinx since version %s; this "
 "extension is ignored."
 msgstr "zgjerimi %r qe shkrirë me Sphinx-in që me versionin %s; ky zgjerim është shpërfillur."
 
-#: sphinx/registry.py:444
+#: sphinx/registry.py:461
 msgid "Original exception:\n"
 msgstr "Përjashtimi origjinal:\n"
 
-#: sphinx/registry.py:445
+#: sphinx/registry.py:462
 #, python-format
 msgid "Could not import extension %s"
 msgstr "S’u importua dot zgjerimi %s"
 
-#: sphinx/registry.py:450
+#: sphinx/registry.py:467
 #, python-format
 msgid ""
 "extension %r has no setup() function; is it really a Sphinx extension "
 "module?"
 msgstr "zgjerimi %r s’ka funksion setup(); a është vërtet një modul zgjerimi Sphinx-i?"
 
-#: sphinx/registry.py:459
+#: sphinx/registry.py:476
 #, python-format
 msgid ""
 "The %s extension used by this project needs at least Sphinx v%s; it "
 "therefore cannot be built with this version."
 msgstr "Zgjerimi %s i përdorur nga ky projekt lyp të paktën Sphinx v%s; prandaj s’mund të montohet me këtë version."
 
-#: sphinx/registry.py:467
+#: sphinx/registry.py:484
 #, python-format
 msgid ""
 "extension %r returned an unsupported object from its setup() function; it "
@@ -804,7 +804,7 @@ msgstr "lidhje e dëmtuar: %s (%s)"
 msgid "Anchor '%s' not found"
 msgstr "S’u gjet spirancë '%s'"
 
-#: sphinx/builders/linkcheck.py:554
+#: sphinx/builders/linkcheck.py:556
 #, python-format
 msgid "Failed to compile regex in linkcheck_allowed_redirects: %r %s"
 msgstr "S’u arrit të përpilohet shprehje e rregullt te linkcheck_allowed_redirects: %r %s"
@@ -1151,66 +1151,66 @@ msgstr "%r s’ka rregullimin \"theme\""
 msgid "%r doesn't have \"%s\" setting"
 msgstr "%r s’ka rregullimin \"%s\""
 
-#: sphinx/cmd/build.py:32
+#: sphinx/cmd/build.py:34
 msgid "Exception occurred while building, starting debugger:"
 msgstr "Ndodhi një përjashtim gjatë montimit, po niset diagnostikuesi:"
 
-#: sphinx/cmd/build.py:42
+#: sphinx/cmd/build.py:44
 msgid "Interrupted!"
 msgstr "U ndërpre!"
 
-#: sphinx/cmd/build.py:44
+#: sphinx/cmd/build.py:46
 msgid "reST markup error:"
 msgstr "Gabim markup-i reST:"
 
-#: sphinx/cmd/build.py:50
+#: sphinx/cmd/build.py:52
 msgid "Encoding error:"
 msgstr "Gabim kodimi:"
 
-#: sphinx/cmd/build.py:53 sphinx/cmd/build.py:68
+#: sphinx/cmd/build.py:55 sphinx/cmd/build.py:70
 #, python-format
 msgid ""
 "The full traceback has been saved in %s, if you want to report the issue to "
 "the developers."
 msgstr "Traceback-u i plotë është ruajtur te %s, nëse doni t’ua raportoni problemin zhvilluesve."
 
-#: sphinx/cmd/build.py:57
+#: sphinx/cmd/build.py:59
 msgid "Recursion error:"
 msgstr "Gabim përsëritje:"
 
-#: sphinx/cmd/build.py:60
+#: sphinx/cmd/build.py:62
 msgid ""
 "This can happen with very large or deeply nested source files. You can "
 "carefully increase the default Python recursion limit of 1000 in conf.py "
 "with e.g.:"
 msgstr "Kjo mund të ndodhë me kartela burim shumë të mëdha ose të futura thellë brenda njëra-tjetrës. Mund të rrisni me kujdes kufirin parazgjedhje për ripërsëritje Python prej 1000, te conf.py, me p.sh.:"
 
-#: sphinx/cmd/build.py:65
+#: sphinx/cmd/build.py:67
 msgid "Exception occurred:"
 msgstr "Ndodhi një përjashtim:"
 
-#: sphinx/cmd/build.py:71
+#: sphinx/cmd/build.py:73
 msgid ""
 "Please also report this if it was a user error, so that a better error "
 "message can be provided next time."
 msgstr "Ju lutemi, njoftojeni nëse qe një gabim përdoruesi, që kështu herës tjetër të mund të furnizohet një mesazh më i mirë gabimi."
 
-#: sphinx/cmd/build.py:74
+#: sphinx/cmd/build.py:76
 msgid ""
 "A bug report can be filed in the tracker at <https://github.com/sphinx-"
 "doc/sphinx/issues>. Thanks!"
 msgstr "Një njoftim të mete mund të depozitohet te gjurmuesi në <https://github.com/sphinx-doc/sphinx/issues>. Faleminderit!"
 
-#: sphinx/cmd/build.py:90
+#: sphinx/cmd/build.py:92
 msgid "job number should be a positive number"
 msgstr "numri i aktit duhet të jetë një numër pozitiv"
 
-#: sphinx/cmd/build.py:98 sphinx/cmd/quickstart.py:465
-#: sphinx/ext/apidoc.py:304 sphinx/ext/autosummary/generate.py:577
+#: sphinx/cmd/build.py:100 sphinx/cmd/quickstart.py:468
+#: sphinx/ext/apidoc.py:304 sphinx/ext/autosummary/generate.py:581
 msgid "For more information, visit <https://www.sphinx-doc.org/>."
 msgstr "Për më tepër hollësi, vizitoni <https://www.sphinx-doc.org/>."
 
-#: sphinx/cmd/build.py:99
+#: sphinx/cmd/build.py:101
 msgid ""
 "\n"
 "Generate documentation from source files.\n"
@@ -1229,135 +1229,135 @@ msgid ""
 "files can be built by specifying individual filenames.\n"
 msgstr "\nProdhoni dokumentim nga kartela burim.\n\nsphinx-build prodhon dokumentim prej kartelash te SOURCEDIR dhe e vendos\nte OUTPUTDIR. Kërkon për 'conf.py' te SOURCEDIR për rregullime formësimi.\nMjeti 'sphinx-quickstart' mund të përdoret për të prodhuar kartela gjedhe,\npërfshi 'conf.py'\n\nsphinx-build mund të krijojë dokumentim në formate të ndryshëm. Një format\npërzgjidhet duke specifikuar te rreshti i urdhrave emrin e montuesit; HTML-ja,\nsi parazgjedhje. Montuesit mund të kryejnë gjithashtu veprime të tjera të lidhura\nme përpunim dokumentimi.\n\nSi parazgjedhje, gjithçka që është e papërditësuar, montohet. Nëse doni\nmontim vetëm për kartela të përzgjedhura, kjo mund të bëhet duke\nspecifikuar emra kartelash individuale.\n"
 
-#: sphinx/cmd/build.py:120
+#: sphinx/cmd/build.py:122
 msgid "path to documentation source files"
 msgstr "shteg për te kartela burimi dokumentimi"
 
-#: sphinx/cmd/build.py:122
+#: sphinx/cmd/build.py:124
 msgid "path to output directory"
 msgstr "shteg për te drejtori përfundimesh"
 
-#: sphinx/cmd/build.py:124
+#: sphinx/cmd/build.py:126
 msgid "a list of specific files to rebuild. Ignored if -a is specified"
 msgstr "një listë kartelash specifike për rimontim. E shpërfillur, nëse jepet -a"
 
-#: sphinx/cmd/build.py:127
+#: sphinx/cmd/build.py:129
 msgid "general options"
 msgstr "mundësi të përgjithshme"
 
-#: sphinx/cmd/build.py:130
+#: sphinx/cmd/build.py:132
 msgid "builder to use (default: html)"
 msgstr "montues për t’u përdorur (parazgjedhje: html)"
 
-#: sphinx/cmd/build.py:132
+#: sphinx/cmd/build.py:134
 msgid "write all files (default: only write new and changed files)"
 msgstr "shkruaj krejt kartelat (parazgjedhje: shkruaj vetëm kartela të reja dhe ato të ndryshuara)"
 
-#: sphinx/cmd/build.py:135
+#: sphinx/cmd/build.py:137
 msgid "don't use a saved environment, always read all files"
 msgstr "mos përdor një mjedis të ruajtur, lexo përherë krejt kartelat"
 
-#: sphinx/cmd/build.py:138
+#: sphinx/cmd/build.py:140
 msgid ""
 "path for the cached environment and doctree files (default: "
 "OUTPUTDIR/.doctrees)"
 msgstr "shteg për mjedis të ruajtur në fshehtinë dhe kartela doctree (parazgjedhje: OUTPUTDIR/.doctrees)"
 
-#: sphinx/cmd/build.py:141
+#: sphinx/cmd/build.py:143
 msgid ""
 "build in parallel with N processes where possible (special value \"auto\" "
 "will set N to cpu-count)"
 msgstr "montoje në paralel me N procese, kur është e mundur (vlera speciale “auto”\" do ta vërë N-në sa cpu-count)"
 
-#: sphinx/cmd/build.py:145
+#: sphinx/cmd/build.py:147
 msgid ""
 "path where configuration file (conf.py) is located (default: same as "
 "SOURCEDIR)"
 msgstr "shteg ku gjendet kartelë formësimi (conf.py) (parazgjedhje: i njëjtë me SOURCEDIR)"
 
-#: sphinx/cmd/build.py:148
+#: sphinx/cmd/build.py:150
 msgid "use no config file at all, only -D options"
 msgstr "mos përdor fare kartelë formësimesh, vetëm mundësitë -D"
 
-#: sphinx/cmd/build.py:151
+#: sphinx/cmd/build.py:153
 msgid "override a setting in configuration file"
 msgstr "anashkalo një rregullim te kartelë formësimi"
 
-#: sphinx/cmd/build.py:154
+#: sphinx/cmd/build.py:156
 msgid "pass a value into HTML templates"
 msgstr "jep një vlerë te gjedhe HTML"
 
-#: sphinx/cmd/build.py:157
+#: sphinx/cmd/build.py:159
 msgid "define tag: include \"only\" blocks with TAG"
 msgstr "përcaktoni etiketë: përfshi blloqe “only” me TAG"
 
-#: sphinx/cmd/build.py:159
+#: sphinx/cmd/build.py:161
 msgid "nit-picky mode, warn about all missing references"
 msgstr "mënyrë gërricëse, sinjalizo mbi krejt referencat që mungojnë"
 
-#: sphinx/cmd/build.py:162
+#: sphinx/cmd/build.py:164
 msgid "console output options"
 msgstr "mundësi për ç’prodhon konsola"
 
-#: sphinx/cmd/build.py:164
+#: sphinx/cmd/build.py:166
 msgid "increase verbosity (can be repeated)"
 msgstr ""
 
-#: sphinx/cmd/build.py:166 sphinx/ext/apidoc.py:327
+#: sphinx/cmd/build.py:168 sphinx/ext/apidoc.py:327
 msgid "no output on stdout, just warnings on stderr"
 msgstr "pa output në stdout, thjesht sinjalizime në stderr"
 
-#: sphinx/cmd/build.py:168
+#: sphinx/cmd/build.py:170
 msgid "no output at all, not even warnings"
 msgstr "pa output fare, madje as sinjalizime"
 
-#: sphinx/cmd/build.py:171
+#: sphinx/cmd/build.py:173
 msgid "do emit colored output (default: auto-detect)"
 msgstr ""
 
-#: sphinx/cmd/build.py:174
+#: sphinx/cmd/build.py:176
 msgid "do not emit colored output (default: auto-detect)"
 msgstr ""
 
-#: sphinx/cmd/build.py:177
+#: sphinx/cmd/build.py:179
 msgid "write warnings (and errors) to given file"
 msgstr "shkruaj sinjalizime (dhe gabime) te kartela e dhënë"
 
-#: sphinx/cmd/build.py:179
+#: sphinx/cmd/build.py:181
 msgid "turn warnings into errors"
 msgstr "shndërroji sinjalizimet në gabime"
 
-#: sphinx/cmd/build.py:181
+#: sphinx/cmd/build.py:183
 msgid "with -W, keep going when getting warnings"
 msgstr "me -W, vazhdo punën, kur merren sinjalizime"
 
-#: sphinx/cmd/build.py:183
+#: sphinx/cmd/build.py:185
 msgid "show full traceback on exception"
 msgstr ""
 
-#: sphinx/cmd/build.py:185
+#: sphinx/cmd/build.py:187
 msgid "run Pdb on exception"
 msgstr "xhiro Pdb, në rast përjashtimesh"
 
-#: sphinx/cmd/build.py:217
+#: sphinx/cmd/build.py:219
 #, python-format
 msgid "cannot find files %r"
 msgstr "s’gjenden dot kartela %r"
 
-#: sphinx/cmd/build.py:220
+#: sphinx/cmd/build.py:222
 msgid "cannot combine -a option and filenames"
 msgstr "s’mund të ndërthuret një mundësi -a dhe emra kartelash"
 
-#: sphinx/cmd/build.py:241
+#: sphinx/cmd/build.py:243
 #, python-format
 msgid "cannot open warning file %r: %s"
 msgstr "s’hapet dot kartelë sinjalizimesh %r: %s"
 
-#: sphinx/cmd/build.py:251
+#: sphinx/cmd/build.py:253
 msgid "-D option argument must be in the form name=value"
 msgstr "argumenti i mundësisë -D duhet të jetë në formën emër=vlerë"
 
-#: sphinx/cmd/build.py:258
+#: sphinx/cmd/build.py:260
 msgid "-A option argument must be in the form name=value"
 msgstr "argumenti i mundësisë -A duhet të jetë në formën emër=vlerë"
 
@@ -1422,78 +1422,78 @@ msgstr "Ju lutemi, jepni 'y' ose 'n'."
 msgid "Please enter a file suffix, e.g. '.rst' or '.txt'."
 msgstr "Ju lutemi, jepni një prapashtesë kartele, për shembull, '.rst' ose '.txt'."
 
-#: sphinx/cmd/quickstart.py:206
+#: sphinx/cmd/quickstart.py:208
 #, python-format
 msgid "Welcome to the Sphinx %s quickstart utility."
 msgstr "Mirë se vini te mjeti për fillim të shpejtë me Sphinx %s."
 
-#: sphinx/cmd/quickstart.py:208
+#: sphinx/cmd/quickstart.py:210
 msgid ""
 "Please enter values for the following settings (just press Enter to\n"
 "accept a default value, if one is given in brackets)."
 msgstr "Ju lutemi, jepni vlera për rregullimet vijuese (thjesht shtypni tastin\nEnter që të pranohet një vlerë parazgjedhje, nëse është një e tillë\nbrenda kllapave)."
 
-#: sphinx/cmd/quickstart.py:213
+#: sphinx/cmd/quickstart.py:215
 #, python-format
 msgid "Selected root path: %s"
 msgstr "Shteg rrënjë i përzgjedhur: %s"
 
-#: sphinx/cmd/quickstart.py:216
+#: sphinx/cmd/quickstart.py:218
 msgid "Enter the root path for documentation."
 msgstr "Jepni shtegun rrënjë për te dokumenti."
 
-#: sphinx/cmd/quickstart.py:217
+#: sphinx/cmd/quickstart.py:219
 msgid "Root path for the documentation"
 msgstr "Shteg rrënje për te dokumenti"
 
-#: sphinx/cmd/quickstart.py:222
+#: sphinx/cmd/quickstart.py:224
 msgid "Error: an existing conf.py has been found in the selected root path."
 msgstr "Gabim: te shtegu rrënjë i përzgjedhur u gjet një conf.py ekzistues."
 
-#: sphinx/cmd/quickstart.py:224
+#: sphinx/cmd/quickstart.py:226
 msgid "sphinx-quickstart will not overwrite existing Sphinx projects."
 msgstr "sphinx-quickstart s’do të mbishkruajë projekte ekzistuese Sphinx."
 
-#: sphinx/cmd/quickstart.py:226
+#: sphinx/cmd/quickstart.py:228
 msgid "Please enter a new root path (or just Enter to exit)"
 msgstr "Ju lutemi, jepni një shteg të ri rrënjë (ose thjesht shtypni tastin Enter, që të dilet)"
 
-#: sphinx/cmd/quickstart.py:233
+#: sphinx/cmd/quickstart.py:235
 msgid ""
 "You have two options for placing the build directory for Sphinx output.\n"
 "Either, you use a directory \"_build\" within the root path, or you separate\n"
 "\"source\" and \"build\" directories within the root path."
 msgstr "Keni dy mundësi për vendosjen e drejtorisë së montimeve për çka prodhon Sphinx-i.\nPërdorni një drejtori \"_build\" brenda shtegut rrënjë, ose i ndani\ndrejtoritë \"burim\" dhe \"montim\" brenda shtegut rrënjë."
 
-#: sphinx/cmd/quickstart.py:236
+#: sphinx/cmd/quickstart.py:238
 msgid "Separate source and build directories (y/n)"
 msgstr "Nda veçmas drejtoritë burim dhe montim (y/n)"
 
-#: sphinx/cmd/quickstart.py:240
+#: sphinx/cmd/quickstart.py:242
 msgid ""
 "Inside the root directory, two more directories will be created; \"_templates\"\n"
 "for custom HTML templates and \"_static\" for custom stylesheets and other static\n"
 "files. You can enter another prefix (such as \".\") to replace the underscore."
 msgstr "Brenda drejtorisë rrënjë do të krijohen dy drejtori të tjera; \"_templates\" për\ngjedhe vetjake HTML, dhe \"_static\" për fletëstile vetjakë dhe kartela të tjera statike.\nMund të krijoni një tjetër parashtesë (bie fjala, \".\") në vend të nënvijës."
 
-#: sphinx/cmd/quickstart.py:243
+#: sphinx/cmd/quickstart.py:245
 msgid "Name prefix for templates and static dir"
 msgstr "Parashtesë emrash për drejtori gjedhesh dhe statikesh"
 
-#: sphinx/cmd/quickstart.py:247
+#: sphinx/cmd/quickstart.py:249
 msgid ""
 "The project name will occur in several places in the built documentation."
 msgstr "Emri i projektit do të shfaqet në disa vende te dokumentimi i montuar."
 
-#: sphinx/cmd/quickstart.py:248
+#: sphinx/cmd/quickstart.py:250
 msgid "Project name"
 msgstr "Emër projekti"
 
-#: sphinx/cmd/quickstart.py:250
+#: sphinx/cmd/quickstart.py:252
 msgid "Author name(s)"
 msgstr "Emër(a) autori(ësh)"
 
-#: sphinx/cmd/quickstart.py:254
+#: sphinx/cmd/quickstart.py:256
 msgid ""
 "Sphinx has the notion of a \"version\" and a \"release\" for the\n"
 "software. Each version can have multiple releases. For example, for\n"
@@ -1502,15 +1502,15 @@ msgid ""
 "just set both to the same value."
 msgstr "Sphinx-i përdor nocionet e “versionit” dhe “hedhjes në qarkullim” për\nsoftware-in. Çdo version mund të ketë hedhje të shumta në qarkullim.\nBie fjala, për Python-in versionet ngjajnë me 2.5 ose 3.0, teksa hedhja\nnë qarkullim ngjan me 2.5.1 ose 3.0a1.  Nëse kjo strukturë duale s’ju\nhyn në punë, thjesht vëruni të dyjave të njëjtën vlerë."
 
-#: sphinx/cmd/quickstart.py:259
+#: sphinx/cmd/quickstart.py:261
 msgid "Project version"
 msgstr "Version projekti"
 
-#: sphinx/cmd/quickstart.py:261
+#: sphinx/cmd/quickstart.py:263
 msgid "Project release"
 msgstr "Hedhje në qarkullim e projektit"
 
-#: sphinx/cmd/quickstart.py:265
+#: sphinx/cmd/quickstart.py:267
 msgid ""
 "If the documents are to be written in a language other than English,\n"
 "you can select a language here by its language code. Sphinx will then\n"
@@ -1520,21 +1520,21 @@ msgid ""
 "https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-language."
 msgstr "Nëse dokumentet janë shkruan në gjuhë tjetër nga anglishtja,\nmund të përzgjidhni një gjuhë këtu, përmes kodit të asaj gjuhe. Sphinx-i mandej\ndo të përkthejë në atë gjuhë tekstin që prodhon.\n\nPër një listë kodesh të mbuluar, shihni\nhttps://www.sphinx-doc.org/en/master/usage/configuration.html#confval-language."
 
-#: sphinx/cmd/quickstart.py:271
+#: sphinx/cmd/quickstart.py:273
 msgid "Project language"
 msgstr "Gjuhë projekti"
 
-#: sphinx/cmd/quickstart.py:277
+#: sphinx/cmd/quickstart.py:279
 msgid ""
 "The file name suffix for source files. Commonly, this is either \".txt\"\n"
 "or \".rst\". Only files with this suffix are considered documents."
 msgstr "Prapashtesa e emrave të kartelave për kartela burim. Zakonisht, kjo\nështë ose \".txt\", ose \".rst\".  Vetëm kartelat me këtë prapashtesë\nmerren si dokumente."
 
-#: sphinx/cmd/quickstart.py:279
+#: sphinx/cmd/quickstart.py:281
 msgid "Source file suffix"
 msgstr "Prapashtesë kartele burim"
 
-#: sphinx/cmd/quickstart.py:283
+#: sphinx/cmd/quickstart.py:285
 msgid ""
 "One document is special in that it is considered the top node of the\n"
 "\"contents tree\", that is, it is the root of the hierarchical structure\n"
@@ -1542,91 +1542,91 @@ msgid ""
 "document is a custom template, you can also set this to another filename."
 msgstr "Një dokument është i veçantë, për faktin se konsiderohet si nyja e epërme\ne  \"pemës së lëndës\", domethënë, është rrënja e strukturës hierarkike\ntë dokumenteve. Zakonisht, ky është \"index\", por nëse dokumenti juaj \"index\"\nështë një gjedhe vetjake, si të tillë mund të caktoni një tjetër emër kartele."
 
-#: sphinx/cmd/quickstart.py:287
+#: sphinx/cmd/quickstart.py:289
 msgid "Name of your master document (without suffix)"
 msgstr "Emër i dokumentit tuaj kryesor (pa prapashtesë)"
 
-#: sphinx/cmd/quickstart.py:292
+#: sphinx/cmd/quickstart.py:294
 #, python-format
 msgid ""
 "Error: the master file %s has already been found in the selected root path."
 msgstr "Gabim: kartela master %s është gjetur tashmë një herë në shtegun rrënjë të përzgjedhur."
 
-#: sphinx/cmd/quickstart.py:294
+#: sphinx/cmd/quickstart.py:296
 msgid "sphinx-quickstart will not overwrite the existing file."
 msgstr "sphinx-quickstart s’do të mbishkruajë kartelën ekzistuese."
 
-#: sphinx/cmd/quickstart.py:296
+#: sphinx/cmd/quickstart.py:298
 msgid ""
 "Please enter a new file name, or rename the existing file and press Enter"
 msgstr "Ju lutemi, jepni një emër të ri kartele, ose riemërtojeni kartelën ekzistuese dhe shtypni tastin Enter"
 
-#: sphinx/cmd/quickstart.py:300
+#: sphinx/cmd/quickstart.py:302
 msgid "Indicate which of the following Sphinx extensions should be enabled:"
 msgstr "Përcaktoni se cilët nga zgjerimet vijuese Sphinx duhen aktivizuar:"
 
-#: sphinx/cmd/quickstart.py:308
+#: sphinx/cmd/quickstart.py:310
 msgid ""
 "Note: imgmath and mathjax cannot be enabled at the same time. imgmath has "
 "been deselected."
 msgstr "Shënim: imgmath dhe mathjax s’mund të aktivizohen në të njëjtën kohë. U hoqë përzgjedhja e imgmath-it."
 
-#: sphinx/cmd/quickstart.py:314
+#: sphinx/cmd/quickstart.py:316
 msgid ""
 "A Makefile and a Windows command file can be generated for you so that you\n"
 "only have to run e.g. `make html' instead of invoking sphinx-build\n"
 "directly."
 msgstr "Për ju mund të prodhohen një kartelë makefile dhe një urdhrash Windows, që\nkështu t’ju duhet vetëm të xhironi, për shembull, `make html', në vend se\ntë thirret drejtpërsëdrejti sphinx-build."
 
-#: sphinx/cmd/quickstart.py:317
+#: sphinx/cmd/quickstart.py:319
 msgid "Create Makefile? (y/n)"
 msgstr "Të krijohet Makefile? (y/n)"
 
-#: sphinx/cmd/quickstart.py:320
+#: sphinx/cmd/quickstart.py:322
 msgid "Create Windows command file? (y/n)"
 msgstr "Të krijohet kartelë urdhrash Windows? (y/n)"
 
-#: sphinx/cmd/quickstart.py:363 sphinx/ext/apidoc.py:85
+#: sphinx/cmd/quickstart.py:366 sphinx/ext/apidoc.py:85
 #, python-format
 msgid "Creating file %s."
 msgstr "Po krijohet kartela %s."
 
-#: sphinx/cmd/quickstart.py:368 sphinx/ext/apidoc.py:82
+#: sphinx/cmd/quickstart.py:371 sphinx/ext/apidoc.py:82
 #, python-format
 msgid "File %s already exists, skipping."
 msgstr "Ka tashmë një kartelë %s, po anashkalohet."
 
-#: sphinx/cmd/quickstart.py:410
+#: sphinx/cmd/quickstart.py:413
 msgid "Finished: An initial directory structure has been created."
 msgstr "Përfundoi: U krijua një strukturë fillestare drejtorish."
 
-#: sphinx/cmd/quickstart.py:412
+#: sphinx/cmd/quickstart.py:415
 #, python-format
 msgid ""
 "You should now populate your master file %s and create other documentation\n"
 "source files. "
 msgstr "Tani duhet të populloni kartelën tuaj master file %s dhe të krijoni kartela të tjera\nburim të dokumentimit. "
 
-#: sphinx/cmd/quickstart.py:415
+#: sphinx/cmd/quickstart.py:418
 msgid ""
 "Use the Makefile to build the docs, like so:\n"
 "   make builder"
 msgstr "Përdorni Makefile-in që të montohen dokumentet, kështu:\n   make builder"
 
-#: sphinx/cmd/quickstart.py:418
+#: sphinx/cmd/quickstart.py:421
 #, python-format
 msgid ""
 "Use the sphinx-build command to build the docs, like so:\n"
 "   sphinx-build -b builder %s %s"
 msgstr "Përodrni urdhrin sphinx-build që të montohen dokumentet, kështu:\n   sphinx-build -b montues %s %s"
 
-#: sphinx/cmd/quickstart.py:420
+#: sphinx/cmd/quickstart.py:423
 msgid ""
 "where \"builder\" is one of the supported builders, e.g. html, latex or "
 "linkcheck."
 msgstr "ku montues është një nga montuesin e mbuluar, p.sh., html, latex ose linkcheck."
 
-#: sphinx/cmd/quickstart.py:455
+#: sphinx/cmd/quickstart.py:458
 msgid ""
 "\n"
 "Generate required files for a Sphinx project.\n"
@@ -1636,135 +1636,135 @@ msgid ""
 "Makefile to be used with sphinx-build.\n"
 msgstr "\nProdho kartelat e domosdoshme për një projekt Sphinx.\n\nsphinx-quickstart është një mjet ndërveprues që bën disa pyetje rreth projektit\ntuaj dhe mandej prodhon një drejtori të plotë dokumentimi dhe një shembull\nMakefile për t’u përdorur me sphinx-build.\n"
 
-#: sphinx/cmd/quickstart.py:470
+#: sphinx/cmd/quickstart.py:473
 msgid "quiet mode"
 msgstr "mënyra pa zhurmë"
 
-#: sphinx/cmd/quickstart.py:475
+#: sphinx/cmd/quickstart.py:478
 msgid "project root"
 msgstr "rrënjë e projektit"
 
-#: sphinx/cmd/quickstart.py:477
+#: sphinx/cmd/quickstart.py:480
 msgid "Structure options"
 msgstr "Mundësi strukture"
 
-#: sphinx/cmd/quickstart.py:479
+#: sphinx/cmd/quickstart.py:482
 msgid "if specified, separate source and build dirs"
 msgstr "nëse është kërkuar, nda veçmas drejtoritë burim dhe montim"
 
-#: sphinx/cmd/quickstart.py:481
+#: sphinx/cmd/quickstart.py:484
 msgid "if specified, create build dir under source dir"
 msgstr "në u përcaktoftë, krijo drejtori montimi nën drejtorinë burim"
 
-#: sphinx/cmd/quickstart.py:483
+#: sphinx/cmd/quickstart.py:486
 msgid "replacement for dot in _templates etc."
 msgstr "zëvendësim për pikën te _templates, etj."
 
-#: sphinx/cmd/quickstart.py:485
+#: sphinx/cmd/quickstart.py:488
 msgid "Project basic options"
 msgstr "Mundësi bazë të projektit"
 
-#: sphinx/cmd/quickstart.py:487
+#: sphinx/cmd/quickstart.py:490
 msgid "project name"
 msgstr "emër projekti"
 
-#: sphinx/cmd/quickstart.py:489
+#: sphinx/cmd/quickstart.py:492
 msgid "author names"
 msgstr "emra autorësh"
 
-#: sphinx/cmd/quickstart.py:491
+#: sphinx/cmd/quickstart.py:494
 msgid "version of project"
 msgstr "version i projektit"
 
-#: sphinx/cmd/quickstart.py:493
+#: sphinx/cmd/quickstart.py:496
 msgid "release of project"
 msgstr "hedhje në qarkullim e projektit"
 
-#: sphinx/cmd/quickstart.py:495
+#: sphinx/cmd/quickstart.py:498
 msgid "document language"
 msgstr "gjuhë dokumenti"
 
-#: sphinx/cmd/quickstart.py:497
+#: sphinx/cmd/quickstart.py:500
 msgid "source file suffix"
 msgstr "prapashtesë kartele burim"
 
-#: sphinx/cmd/quickstart.py:499
+#: sphinx/cmd/quickstart.py:502
 msgid "master document name"
 msgstr "emër dokumenti bazë"
 
-#: sphinx/cmd/quickstart.py:501
+#: sphinx/cmd/quickstart.py:504
 msgid "use epub"
 msgstr "përdor epub"
 
-#: sphinx/cmd/quickstart.py:503
+#: sphinx/cmd/quickstart.py:506
 msgid "Extension options"
 msgstr "Mundësi zgjerimi"
 
-#: sphinx/cmd/quickstart.py:507 sphinx/ext/apidoc.py:387
+#: sphinx/cmd/quickstart.py:510 sphinx/ext/apidoc.py:387
 #, python-format
 msgid "enable %s extension"
 msgstr "aktivizo zgjerimin %s"
 
-#: sphinx/cmd/quickstart.py:509 sphinx/ext/apidoc.py:383
+#: sphinx/cmd/quickstart.py:512 sphinx/ext/apidoc.py:383
 msgid "enable arbitrary extensions"
 msgstr "aktivizo zgjerime arbitrare"
 
-#: sphinx/cmd/quickstart.py:511
+#: sphinx/cmd/quickstart.py:514
 msgid "Makefile and Batchfile creation"
 msgstr "Krijim makefile-i dhe batchfile-i"
 
-#: sphinx/cmd/quickstart.py:513
+#: sphinx/cmd/quickstart.py:516
 msgid "create makefile"
 msgstr "krijo makefile"
 
-#: sphinx/cmd/quickstart.py:515
+#: sphinx/cmd/quickstart.py:518
 msgid "do not create makefile"
 msgstr "mos krijo makefile"
 
-#: sphinx/cmd/quickstart.py:517
+#: sphinx/cmd/quickstart.py:520
 msgid "create batchfile"
 msgstr "krijo batchfile"
 
-#: sphinx/cmd/quickstart.py:520
+#: sphinx/cmd/quickstart.py:523
 msgid "do not create batchfile"
 msgstr "mos krijo batchfile"
 
-#: sphinx/cmd/quickstart.py:523
+#: sphinx/cmd/quickstart.py:526
 msgid "use make-mode for Makefile/make.bat"
 msgstr "përdor make-mode për Makefile/make.bat"
 
-#: sphinx/cmd/quickstart.py:526
+#: sphinx/cmd/quickstart.py:529
 msgid "do not use make-mode for Makefile/make.bat"
 msgstr "mos përdor make-mode për Makefile/make.bat"
 
-#: sphinx/cmd/quickstart.py:528 sphinx/ext/apidoc.py:389
+#: sphinx/cmd/quickstart.py:531 sphinx/ext/apidoc.py:389
 msgid "Project templating"
 msgstr "Gjedhe projekti"
 
-#: sphinx/cmd/quickstart.py:531 sphinx/ext/apidoc.py:392
+#: sphinx/cmd/quickstart.py:534 sphinx/ext/apidoc.py:392
 msgid "template directory for template files"
 msgstr "drejtori gjedhesh për kartela gjedhe"
 
-#: sphinx/cmd/quickstart.py:534
+#: sphinx/cmd/quickstart.py:537
 msgid "define a template variable"
 msgstr "përkufizoni një ndryshore gjedheje"
 
-#: sphinx/cmd/quickstart.py:567
+#: sphinx/cmd/quickstart.py:570
 msgid "\"quiet\" is specified, but any of \"project\" or \"author\" is not specified."
 msgstr "\"quiet\" është specifikuar, por s’është specifikuar ndonjë \"projekt\" ose \"autor\"."
 
-#: sphinx/cmd/quickstart.py:581
+#: sphinx/cmd/quickstart.py:584
 msgid ""
 "Error: specified path is not a directory, or sphinx files already exist."
 msgstr "Gabim:shtegu i dhënë s’është drejtori, ose kartelat sphinx ekzistojnë tashmë."
 
-#: sphinx/cmd/quickstart.py:583
+#: sphinx/cmd/quickstart.py:586
 msgid ""
 "sphinx-quickstart only generate into a empty directory. Please specify a new"
 " root path."
 msgstr "sphinx-quickstart prodhon vetëm te një drejtori e zbrazët. Ju lutemi, specifikoni një shteg rrënjë të ri."
 
-#: sphinx/cmd/quickstart.py:598
+#: sphinx/cmd/quickstart.py:601
 #, python-format
 msgid "Invalid template variable: %s"
 msgstr "Ndryshore e pavlefshme gjedheje: %s"
@@ -1882,16 +1882,16 @@ msgstr "Deklarim C i përsëdytur, përkufizuar edhe te %s:%s.\nDeklarimi ësht�
 msgid "%s (C %s)"
 msgstr "%s (C %s)"
 
-#: sphinx/domains/c.py:3347 sphinx/domains/cpp.py:7419
+#: sphinx/domains/c.py:3347 sphinx/domains/cpp.py:7422
 #: sphinx/domains/python.py:435 sphinx/ext/napoleon/docstring.py:751
 msgid "Parameters"
 msgstr "Parametra"
 
-#: sphinx/domains/c.py:3350 sphinx/domains/cpp.py:7425
+#: sphinx/domains/c.py:3350 sphinx/domains/cpp.py:7428
 msgid "Return values"
 msgstr ""
 
-#: sphinx/domains/c.py:3353 sphinx/domains/cpp.py:7428
+#: sphinx/domains/c.py:3353 sphinx/domains/cpp.py:7431
 #: sphinx/domains/javascript.py:216 sphinx/domains/python.py:447
 msgid "Returns"
 msgstr "Kthime"
@@ -1901,7 +1901,7 @@ msgstr "Kthime"
 msgid "Return type"
 msgstr "Lloj kthimi"
 
-#: sphinx/domains/c.py:3749 sphinx/domains/cpp.py:7832
+#: sphinx/domains/c.py:3749 sphinx/domains/cpp.py:7835
 msgid "member"
 msgstr "anëtar"
 
@@ -1909,7 +1909,7 @@ msgstr "anëtar"
 msgid "variable"
 msgstr "ndryshore"
 
-#: sphinx/domains/c.py:3751 sphinx/domains/cpp.py:7831
+#: sphinx/domains/c.py:3751 sphinx/domains/cpp.py:7834
 #: sphinx/domains/javascript.py:318 sphinx/domains/python.py:1157
 msgid "function"
 msgstr "funksion"
@@ -1922,23 +1922,23 @@ msgstr "makro"
 msgid "struct"
 msgstr ""
 
-#: sphinx/domains/c.py:3754 sphinx/domains/cpp.py:7830
+#: sphinx/domains/c.py:3754 sphinx/domains/cpp.py:7833
 msgid "union"
 msgstr "bashkim"
 
-#: sphinx/domains/c.py:3755 sphinx/domains/cpp.py:7835
+#: sphinx/domains/c.py:3755 sphinx/domains/cpp.py:7838
 msgid "enum"
 msgstr ""
 
-#: sphinx/domains/c.py:3756 sphinx/domains/cpp.py:7836
+#: sphinx/domains/c.py:3756 sphinx/domains/cpp.py:7839
 msgid "enumerator"
 msgstr ""
 
-#: sphinx/domains/c.py:3757 sphinx/domains/cpp.py:7833
+#: sphinx/domains/c.py:3757 sphinx/domains/cpp.py:7836
 msgid "type"
 msgstr "lloj"
 
-#: sphinx/domains/c.py:3759 sphinx/domains/cpp.py:7838
+#: sphinx/domains/c.py:3759 sphinx/domains/cpp.py:7841
 msgid "function parameter"
 msgstr "parametër funksioni"
 
@@ -1967,36 +1967,36 @@ msgstr "citim i përsëdytur %s, tjetër instancë te %s"
 msgid "Citation [%s] is not referenced."
 msgstr "Përmendja [%s] s’është në referencë."
 
-#: sphinx/domains/cpp.py:4884 sphinx/domains/cpp.py:7374
+#: sphinx/domains/cpp.py:4887 sphinx/domains/cpp.py:7377
 #, python-format
 msgid ""
 "Duplicate C++ declaration, also defined at %s:%s.\n"
 "Declaration is '.. cpp:%s:: %s'."
 msgstr "Deklarim C++ i përsëdytur, përkufizuar edhe te %s:%s.\nDeklarimi është '.. cpp:%s:: %s'."
 
-#: sphinx/domains/cpp.py:7180
+#: sphinx/domains/cpp.py:7183
 msgid "Template Parameters"
 msgstr "Parametra Gjedhesh"
 
-#: sphinx/domains/cpp.py:7297
+#: sphinx/domains/cpp.py:7300
 #, python-format
 msgid "%s (C++ %s)"
 msgstr "%s (C++ %s)"
 
-#: sphinx/domains/cpp.py:7422 sphinx/domains/javascript.py:213
+#: sphinx/domains/cpp.py:7425 sphinx/domains/javascript.py:213
 msgid "Throws"
 msgstr ""
 
-#: sphinx/domains/cpp.py:7829 sphinx/domains/javascript.py:320
+#: sphinx/domains/cpp.py:7832 sphinx/domains/javascript.py:320
 #: sphinx/domains/python.py:1159
 msgid "class"
 msgstr "klasë"
 
-#: sphinx/domains/cpp.py:7834
+#: sphinx/domains/cpp.py:7837
 msgid "concept"
 msgstr "koncept"
 
-#: sphinx/domains/cpp.py:7839
+#: sphinx/domains/cpp.py:7842
 msgid "template parameter"
 msgstr "parametër gjedheje"
 
@@ -2352,16 +2352,16 @@ msgstr "Ky mjedis është i papërputhshëm me montuesin e përzgjedhur, ju lute
 msgid "Failed to scan documents in %s: %r"
 msgstr "S’u arrit të skanohen dokumente te %s: %r"
 
-#: sphinx/environment/__init__.py:507
+#: sphinx/environment/__init__.py:509
 #, python-format
 msgid "Domain %r is not registered"
 msgstr "Përkatësia %r s’është e regjistruar"
 
-#: sphinx/environment/__init__.py:588
+#: sphinx/environment/__init__.py:597
 msgid "self referenced toctree found. Ignored."
 msgstr "U gjet “toctree” që i referohet vetes. U shpërfill."
 
-#: sphinx/environment/__init__.py:630
+#: sphinx/environment/__init__.py:639
 msgid "document isn't included in any toctree"
 msgstr "dokumenti s’është i përfshirë në ndonjë toctree"
 
@@ -2417,7 +2417,7 @@ msgstr "kartelë figure %s jo e lexueshme: %s"
 msgid "download file not readable: %s"
 msgstr "kartelë shkarkimi jo e lexueshme: %s"
 
-#: sphinx/environment/collectors/toctree.py:177
+#: sphinx/environment/collectors/toctree.py:179
 #, python-format
 msgid "%s is already assigned section numbers (nested numbered toctree?)"
 msgstr ""
@@ -2655,7 +2655,7 @@ msgstr "S’u gjet kartelë e jashtme Graphviz %r, ose dështoi leximi i saj"
 msgid "Ignoring \"graphviz\" directive without content."
 msgstr "Po shpërfillet direktivë “graphviz” pa lëndë."
 
-#: sphinx/ext/graphviz.py:249
+#: sphinx/ext/graphviz.py:250
 #, python-format
 msgid ""
 "dot did not produce an output file:\n"
@@ -2665,14 +2665,14 @@ msgid ""
 "%r"
 msgstr "dot s’prodhoi kartelë përfundim:\n[stderr]\n%r\n[stdout]\n%r"
 
-#: sphinx/ext/graphviz.py:253
+#: sphinx/ext/graphviz.py:254
 #, python-format
 msgid ""
 "dot command %r cannot be run (needed for graphviz output), check the "
 "graphviz_dot setting"
 msgstr "urdhri dot %r s’mund të xhirohet (i nevojshëm për çka prodhon graphviz), kontrolloni rregullimin graphviz_dot"
 
-#: sphinx/ext/graphviz.py:260
+#: sphinx/ext/graphviz.py:261
 #, python-format
 msgid ""
 "dot exited with error:\n"
@@ -2682,23 +2682,23 @@ msgid ""
 "%r"
 msgstr "dot përfundoi me gabim:\n[stderr]\n%r\n[stdout]\n%r"
 
-#: sphinx/ext/graphviz.py:270
+#: sphinx/ext/graphviz.py:272
 #, python-format
 msgid "graphviz_output_format must be one of 'png', 'svg', but is %r"
 msgstr "graphviz_output_format duhet të jetë një nga 'png', 'svg', por është %r"
 
-#: sphinx/ext/graphviz.py:274 sphinx/ext/graphviz.py:326
-#: sphinx/ext/graphviz.py:363
+#: sphinx/ext/graphviz.py:276 sphinx/ext/graphviz.py:328
+#: sphinx/ext/graphviz.py:365
 #, python-format
 msgid "dot code %r: %s"
 msgstr "kod dot %r: %s"
 
-#: sphinx/ext/graphviz.py:376 sphinx/ext/graphviz.py:384
+#: sphinx/ext/graphviz.py:378 sphinx/ext/graphviz.py:386
 #, python-format
 msgid "[graph: %s]"
 msgstr "[grafik: %s]"
 
-#: sphinx/ext/graphviz.py:378 sphinx/ext/graphviz.py:386
+#: sphinx/ext/graphviz.py:380 sphinx/ext/graphviz.py:388
 msgid "[graph]"
 msgstr "[grafik]"
 
@@ -2999,7 +2999,7 @@ msgstr "vetëpërmbledhje: s’u gjet kartelë stub %r. Kontrolloni rregullimin 
 msgid "A captioned autosummary requires :toctree: option. ignored."
 msgstr ""
 
-#: sphinx/ext/autosummary/__init__.py:320
+#: sphinx/ext/autosummary/__init__.py:322
 #, python-format
 msgid ""
 "autosummary: failed to import %s.\n"
@@ -3007,46 +3007,46 @@ msgid ""
 "%s"
 msgstr ""
 
-#: sphinx/ext/autosummary/__init__.py:334
+#: sphinx/ext/autosummary/__init__.py:336
 #, python-format
 msgid "failed to parse name %s"
 msgstr "s’u arrit të përtypej emri %s"
 
-#: sphinx/ext/autosummary/__init__.py:339
+#: sphinx/ext/autosummary/__init__.py:341
 #, python-format
 msgid "failed to import object %s"
 msgstr "s’u arrit të importohej objekti %s"
 
-#: sphinx/ext/autosummary/__init__.py:789
+#: sphinx/ext/autosummary/__init__.py:792
 #, python-format
 msgid "autosummary_generate: file not found: %s"
 msgstr "autosummary_generate: s’u gjet kartelë: %s"
 
-#: sphinx/ext/autosummary/__init__.py:797
+#: sphinx/ext/autosummary/__init__.py:800
 msgid ""
 "autosummary generats .rst files internally. But your source_suffix does not "
 "contain .rst. Skipped."
 msgstr "vetëpërmbledhja prodhon së brendshmi kartela .rst. Por source_suffix juaj s’përmban .rst. U anashkalua."
 
 #: sphinx/ext/autosummary/generate.py:151
-#: sphinx/ext/autosummary/generate.py:223
+#: sphinx/ext/autosummary/generate.py:224
 #, python-format
 msgid ""
 "autosummary: failed to determine %r to be documented, the following exception was raised:\n"
 "%s"
 msgstr "vetëpërmbledhje: s’u arrit të përcaktohet %r për t’u dokumentuar, u shfaq përjashtimi vijues:\n%s"
 
-#: sphinx/ext/autosummary/generate.py:361
+#: sphinx/ext/autosummary/generate.py:362
 #, python-format
 msgid "[autosummary] generating autosummary for: %s"
 msgstr "[vetëpërmbledhje] prodhim vetëpërmbledhje për: %s"
 
-#: sphinx/ext/autosummary/generate.py:365
+#: sphinx/ext/autosummary/generate.py:366
 #, python-format
 msgid "[autosummary] writing to %s"
 msgstr "[vetëpërmbledhje] po shkruhet te %s"
 
-#: sphinx/ext/autosummary/generate.py:408
+#: sphinx/ext/autosummary/generate.py:409
 #, python-format
 msgid ""
 "[autosummary] failed to import %s.\n"
@@ -3054,7 +3054,7 @@ msgid ""
 "%s"
 msgstr ""
 
-#: sphinx/ext/autosummary/generate.py:578
+#: sphinx/ext/autosummary/generate.py:582
 msgid ""
 "\n"
 "Generate ReStructuredText using autosummary directives.\n"
@@ -3069,30 +3069,30 @@ msgid ""
 "  pydoc sphinx.ext.autosummary\n"
 msgstr "\nProdhoni ReStructuredText duke përdorur direktiva vetëpërmbledhje.\n\nsphinx-autogen është një ndërfaqe pamore për sphinx.ext.autosummary.generate. Prodhon\nkartela reStructuredText nga direktiva vetëpërmbledhjeje që përmbahen te\nkartelat e dhëna.\n\nFormati i direktivës vetëpërmbledhje dokumentohet te\nmoduli Python ``sphinx.ext.autosummary`` dhe mund të lexohet duke përdorur::\n\n  pydoc sphinx.ext.autosummary\n"
 
-#: sphinx/ext/autosummary/generate.py:595
+#: sphinx/ext/autosummary/generate.py:599
 msgid "source files to generate rST files for"
 msgstr "kartela burim për të cilat të krijohen kartela rST"
 
-#: sphinx/ext/autosummary/generate.py:599
+#: sphinx/ext/autosummary/generate.py:603
 msgid "directory to place all output in"
 msgstr "drejtori ku të vendosen krejt përfundimet"
 
-#: sphinx/ext/autosummary/generate.py:602
+#: sphinx/ext/autosummary/generate.py:606
 #, python-format
 msgid "default suffix for files (default: %(default)s)"
 msgstr "prapashtesë parazgjedhje për kartela (parazgjedhje: %(default)s)"
 
-#: sphinx/ext/autosummary/generate.py:606
+#: sphinx/ext/autosummary/generate.py:610
 #, python-format
 msgid "custom template directory (default: %(default)s)"
 msgstr "drejtori gjedhesh vetjake (parazgjedhje: %(default)s)"
 
-#: sphinx/ext/autosummary/generate.py:610
+#: sphinx/ext/autosummary/generate.py:614
 #, python-format
 msgid "document imported members (default: %(default)s)"
 msgstr "pjesë të importuara të dokumentit (parazgjedhje: %(default)s)"
 
-#: sphinx/ext/autosummary/generate.py:614
+#: sphinx/ext/autosummary/generate.py:618
 #, python-format
 msgid ""
 "document exactly the members in module __all__ attribute. (default: "
@@ -3502,17 +3502,17 @@ msgid ""
 "bug."
 msgstr ""
 
-#: sphinx/transforms/post_transforms/__init__.py:150
+#: sphinx/transforms/post_transforms/__init__.py:152
 #, python-format
 msgid "more than one target found for 'any' cross-reference %r: could be %s"
 msgstr "u gjet më shumë se një objektiv për ndërreferencën 'any' %r: mund të ishte %s"
 
-#: sphinx/transforms/post_transforms/__init__.py:198
+#: sphinx/transforms/post_transforms/__init__.py:200
 #, python-format
 msgid "%s:%s reference target not found: %s"
 msgstr "s’u gjet objektiv reference %s:%s: %s"
 
-#: sphinx/transforms/post_transforms/__init__.py:201
+#: sphinx/transforms/post_transforms/__init__.py:203
 #, python-format
 msgid "%r reference target not found: %s"
 msgstr "s’u gjet objektiv reference %r: %s"
